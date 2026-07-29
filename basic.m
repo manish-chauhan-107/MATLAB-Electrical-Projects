@@ -1,6 +1,6 @@
 a = 10 ;
 b = 10.2;
-disp(a);
+disp(a*2);
 disp(b);
 sumValue = a + b;
 disp(sumValue);
