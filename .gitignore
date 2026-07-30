@@ -1,0 +1,22 @@
+# MATLAB autosave files
+*.asv
+
+# MATLAB Live Editor backups
+*.autosave
+
+# MATLAB generated files
+*.mlx.autosave
+
+# Figure backup files
+*.fig~
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# MATLAB cache
+slprj/
+sfprj/
+
+# Build artifacts
+*.mex*
