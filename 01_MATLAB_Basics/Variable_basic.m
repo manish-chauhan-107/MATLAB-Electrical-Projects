@@ -54,4 +54,4 @@ prodValue = prod(Arr);
 disp(prodValue);
 % Single element (row, column)
 e = arr5(2,3);        
-disp(e)
+disp(e);
