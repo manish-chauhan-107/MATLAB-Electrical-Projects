@@ -1,5 +1,6 @@
 a = 10 ;
 b = 10.2;
+x = input("enter the value of x : "); %take value from user 
 disp(a*2); % for display value of variable 
 disp(b);
 sumValue = a + b;

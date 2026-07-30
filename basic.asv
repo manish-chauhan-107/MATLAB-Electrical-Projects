@@ -1,5 +1,6 @@
 a = 10 ;
 b = 10.2;
+x = input("enter the value of x : "); %take value f
 disp(a*2); % for display value of variable 
 disp(b);
 sumValue = a + b;
@@ -43,11 +44,14 @@ disp(arr5');
 % Calculate the sum of the 2D array elements
 sumArr2 = sum(arr2, 'all');
 disp(sumArr2);
-% Calculate the range of the 1D array
-rangeValue = range(Arr);
-disp(rangeValue);
 % Calculate the maximum and minimum of the 1D array
 maxValue = max(Arr);
 minValue = min(Arr);
 disp(maxValue);
 disp(minValue);
+% Calculate the product of the 1D array elements
+prodValue = prod(Arr);
+disp(prodValue);
+% Single element (row, column)
+e = arr5(2,3);        
+disp(e)
