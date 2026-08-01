@@ -11,3 +11,5 @@ disp(size(x));
 %You can extract values from a matrix using row-column indexing.
 y = x(3,4);
 disp(y);
+%When used as an index, the colon operator (:) specifies all the elements in that dimension. For example, this code creates a column vector containing all the elements from the first column of x.
+z = x(:,1);
