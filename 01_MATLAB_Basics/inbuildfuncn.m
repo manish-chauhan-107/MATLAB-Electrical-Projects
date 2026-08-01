@@ -17,3 +17,5 @@ disp(z);
 % the maximum value of a vector can be determined using the max function.
 xMax = max(y);
 disp(xMax);
+%we can also request two output variables from the size function. In this case, each variable contains the size of one of the dimensions of the input array. Use square brackets ([ ]) to request more than one output.
+[xrow,xcol] = size(x)
