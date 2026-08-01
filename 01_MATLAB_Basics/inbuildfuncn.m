@@ -13,3 +13,7 @@ y = x(3,4);
 disp(y);
 %When used as an index, the colon operator (:) specifies all the elements in that dimension. For example, this code creates a column vector containing all the elements from the first column of x.
 z = x(:,1);
+disp(z);
+% the maximum value of a vector can be determined using the max function.
+xMax = max(y);
+disp(xMax);
