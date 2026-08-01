@@ -52,6 +52,3 @@ disp(minValue);
 % Calculate the product of the 1D array elements
 prodValue = prod(Arr);
 disp(prodValue);
-% Single element (row, column)
-e = arr5(2,3);        
-disp(e);
