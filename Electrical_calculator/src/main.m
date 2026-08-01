@@ -18,6 +18,13 @@ switch choice
     case 1
         disp("Voltage Calculator");
         fprintf("\n");
+        current = input("Enter Current (A): ");
+        resistance = input("Enter Resistance (Ohm): ");
+
+        V = voltage(current, resistance);
+
+        fprintf("Voltage = %.2f V\n", V);
+
         pause;
 
     case 2
