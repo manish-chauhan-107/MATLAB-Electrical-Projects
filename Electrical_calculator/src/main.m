@@ -99,6 +99,47 @@ switch choice
         fprintf("4. E = V² / R × t\n");
         fprintf("0. Back \n");
         fprintf("-----------------------------------\n");
+        energyChoice = input("Enter your choice: ");
+
+        switch energyChoice
+
+            case 1
+                powerValue = input("Enter Power (W): ");
+                timeValue = input("Enter Time (s): ");
+
+                E = calculateEnergy(1, powerValue, 0, timeValue);
+
+            case 2
+                voltageValue = input("Enter Voltage (V): ");
+                currentValue = input("Enter Current (A): ");
+                timeValue = input("Enter Time (s): ");
+
+                E = calculateEnergy(2, voltageValue, currentValue, timeValue);
+
+            case 3
+                currentValue = input("Enter Current (A): ");
+                resistanceValue = input("Enter Resistance (Ohm): ");
+                timeValue = input("Enter Time (s): ");
+
+                E = calculateEnergy(3, currentValue, resistanceValue, timeValue);
+
+            case 4
+                voltageValue = input("Enter Voltage (V): ");
+                resistanceValue = input("Enter Resistance (Ohm): ");
+                timeValue = input("Enter Time (s): ");
+
+                E = calculateEnergy(4, voltageValue, resistanceValue, timeValue);
+
+            case 0
+                continue;
+
+            otherwise
+                disp("Invalid Choice!");
+                pause;
+                continue;
+        end
+
+        fprintf("\nEnergy = %.2f J\n", E);
         fprintf("\n");
         pause;
 
