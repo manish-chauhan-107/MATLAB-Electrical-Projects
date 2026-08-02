@@ -89,7 +89,15 @@ switch choice
         pause;
 
     case 5
-        disp("Energy Calculator");
+        fprintf("========Energy Calculator ======= \n");
+        fprintf("\n");
+        fprintf ("Select Formula")
+        fprintf("\n");
+        fprintf("1. P = V × I  \n");
+        fprintf("2. P = V² / R \n");
+        fprintf("3. P = I² × R \n");
+        fprintf("0. Back \n");
+        fprintf("-----------------------------------\n");
         fprintf("\n");
         pause;
 
