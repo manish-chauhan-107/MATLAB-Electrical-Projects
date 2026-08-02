@@ -35,6 +35,10 @@ switch choice
 
     case 3
         disp("Resistance Calculator");
+        voltagevalue = input("Enter voltage : ");
+        currentvalue = input("Enter Current (A): ");
+        R = calculateresistance(voltagevalue, currentvalue);
+        fprintf("Resistance = %.2f Ohm\n", R);
         fprintf("\n");
         pause;
 
