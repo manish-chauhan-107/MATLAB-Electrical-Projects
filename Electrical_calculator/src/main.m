@@ -1,3 +1,9 @@
+% ==========================================
+% Project : Electrical Calculator
+% Version : 1.0
+% Author  : Manish Chauhan
+% NIT Meghalaya
+% ==========================================
 while true 
 clc;
 fprintf("=================================== \n");
