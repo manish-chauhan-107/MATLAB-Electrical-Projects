@@ -43,8 +43,15 @@ switch choice
         pause;
 
     case 4
-        disp("Power Calculator");
+        fprintf("========Power Calculator ======= \n");
         fprintf("\n");
+        fprintf ("Select Formula")
+        fprintf("1. P = V × I  \n");
+        fprintf("2. P = V² / R \n");
+        fprintf("3. P = I² × R \n");
+        fprintf("0. Back \n");
+        fprintf("-----------------------------------\n");
+        choice = input("Enter your choice: ");
         pause;
 
     case 5
