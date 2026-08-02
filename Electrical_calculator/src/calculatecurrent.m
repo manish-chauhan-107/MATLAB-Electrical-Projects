@@ -1,3 +1,3 @@
-function I = calculatceurrent(V , R)
+function I = calculatecurrent(V , R)
 I = V / R;
 end
