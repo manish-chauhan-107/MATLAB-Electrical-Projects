@@ -1,4 +1,4 @@
-function P = calculatepower(choice, a, b)
+function P = calculatePower(choice, a, b)
 
 switch choice
 

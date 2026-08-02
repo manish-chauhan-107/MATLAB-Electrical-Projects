@@ -46,12 +46,46 @@ switch choice
         fprintf("========Power Calculator ======= \n");
         fprintf("\n");
         fprintf ("Select Formula")
+        fprintf("\n");
         fprintf("1. P = V × I  \n");
         fprintf("2. P = V² / R \n");
         fprintf("3. P = I² × R \n");
         fprintf("0. Back \n");
         fprintf("-----------------------------------\n");
-        choice = input("Enter your choice: ");
+        powerchoice = input("Enter your choice: ");
+        switch powerchoice
+
+            case 1
+                voltageValue = input("Enter Voltage (V): ");
+                currentValue = input("Enter Current (A): ");
+
+                P = calculatePower(1, voltageValue, currentValue);
+
+                fprintf("\nPower = %.2f W\n", P);
+
+            case 2
+                voltageValue = input("Enter Voltage (V): ");
+                resistanceValue = input("Enter Resistance (Ohm): ");
+
+                P = calculatePower(2, voltageValue, resistanceValue);
+
+                fprintf("\nPower = %.2f W\n", P);
+
+            case 3
+                currentValue = input("Enter Current (A): ");
+                resistanceValue = input("Enter Resistance (Ohm): ");
+
+                P = calculatePower(3, currentValue, resistanceValue);
+
+                fprintf("\nPower = %.2f W\n", P);
+
+            case 0
+                continue;
+
+            otherwise
+                disp("Invalid Choice!");
+
+        end
         pause;
 
     case 5
