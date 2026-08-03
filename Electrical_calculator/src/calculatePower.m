@@ -12,10 +12,10 @@ switch choice
         P = a * b;
 
     case 2
-        P = (a^2) / b;
+        P = (a.^2) / b;
 
     case 3
-        P = (a^2) * b;
+        P = (a.^2) * b;
 
 end
 

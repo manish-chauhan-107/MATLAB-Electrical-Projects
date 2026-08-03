@@ -14,9 +14,9 @@ switch choice
         E = a * b * t;       
 
     case 3
-        E = (a^2) * b * t;    
+        E = (a.^2) * b * t;    
     case 4
-        E = ((a^2) / b) * t;  
+        E = ((a.^2) / b) * t;  
 
 end
 
