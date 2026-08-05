@@ -23,8 +23,26 @@ while true
     switch choice
 
         case 1
-            disp("Sine Wave Generator");
-            pause;
+
+             fprintf("----- Sine Wave Generator -----\n\n");
+
+             amplitude = input("Enter amplitude (V): ");
+             frequency = input("Enter frequency (Hz): ");
+             duration = input("Enter duration (s): ");
+             samplingFrequency = input("Enter sampling frequency (Hz): ");
+  
+             [t, signal] = generateSine(amplitude, frequency, duration, samplingFrequency);
+
+
+              plot(t, signal);
+ 
+              xlabel("Time (seconds)");
+              ylabel("Amplitude (V)");
+              title("Sine Wave Signal");
+
+                grid on;
+
+               pause;
 
         case 2
             disp("Square Wave Generator");
