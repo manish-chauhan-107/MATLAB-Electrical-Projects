@@ -1,101 +1,104 @@
-# ⚡ MATLAB Electrical Projects
+# ⚡ MATLAB & Simulink Electrical Engineering Projects
 
-A collection of MATLAB projects focused on **Electrical Engineering**, **Signal Processing**, **Power Systems**, and **MATLAB Programming**.
+A collection of practical **MATLAB and Simulink projects** focused on Electrical Engineering, system modelling, simulation, control, and instrumentation.
 
-The purpose of this repository is to build practical engineering projects while learning MATLAB from fundamentals to advanced applications.
+The purpose of this repository is to learn MATLAB and Simulink through practical engineering applications and build projects that are useful for academic work and internship preparation.
 
 ---
 
 # 🎯 Goals
 
-- Learn MATLAB professionally
-- Build real Electrical Engineering projects
-- Strengthen programming skills
-- Create a portfolio for internships and placements
-- Apply engineering concepts using MATLAB
+- Learn MATLAB for Electrical Engineering applications
+- Learn Simulink and block-based system modelling
+- Simulate and analyze electrical systems
+- Apply theoretical concepts to practical engineering problems
+- Build a strong technical portfolio for internships
+- Develop both software and engineering problem-solving skills
 
 ---
 
 # 🛠️ Projects
 
-| No. | Project | Status |
-|-----|---------|:------:|
-| 01 | Electrical Calculator | ✅ Completed |
-| 02 | Signal Generator | ⏳ Planned |
-| 03 | Matrix & Linear Algebra Visualizer | ⏳ Planned |
-| 04 | RLC Circuit Analyzer | ⏳ Planned |
-| 05 | Smart Energy Monitor | ⏳ Planned |
-| 06 | Three Phase Power Calculator | ⏳ Planned |
-| 07 | MATLAB Oscilloscope | ⏳ Planned |
-| 08 | Transformer Design Calculator | ⏳ Planned |
-| 09 | GUI Based Electrical Calculator | ⏳ Planned |
-| 10 | Simulink Projects | ⏳ Planned |
+| No. | Project | Technology | Status |
+|-----|---------|------------|:------:|
+| 01 | Electrical Calculator | MATLAB | ✅ Completed |
+| 02 | Simulink Fundamentals | Simulink | 🔄 Learning |
+| 03 | RLC Circuit Simulation | MATLAB + Simulink | ⏳ Planned |
+| 04 | Control System / DC Motor | Simulink | ⏳ Planned |
+| 05 | Real-Time Electrical Monitoring System | Hardware + MATLAB/Simulink | ⏳ Planned |
 
 ---
 
 # 📂 Repository Structure
 
-```
+```text
 MATLAB-Electrical-Projects
 │
-├── Electrical_calculator
+├── 01_Electrical_Calculator
 │
-├── Signal_Generator
+├── 02_Simulink_Fundamentals
 │
-├── Matrix_Visualizer
+├── 03_RLC_Circuit_Simulation
 │
-├── RLC_Circuit_Analyzer
+├── 04_Control_System
 │
-├── Smart_Energy_Monitor
+├── 05_Real_Time_Electrical_Monitoring
 │
-├── Three_Phase_Power_Calculator
-│
-├── MATLAB_Oscilloscope
-│
-├── Transformer_Design_Calculator
-│
-├── GUI_Projects
-│
-└── Simulink_Projects
+├── README.md
+└── LICENSE
 ```
 
 ---
 
 # 💻 Skills Covered
 
-- MATLAB Programming
-- Functions
+### MATLAB
+
+- Variables and data types
+- Conditional statements
 - Loops
-- Switch Case
-- Arrays & Matrices
-- Data Visualization
-- Signal Generation
-- Electrical Circuit Analysis
-- Power System Calculations
-- File Handling
-- GUI Development
-- Simulink
+- Switch-case
+- Functions
+- Modular programming
+- Numerical calculations
+
+### Simulink
+
+- Block-based modelling
+- Sources and Sinks
+- Mathematical operations
+- Integrators
+- Transfer Functions
+- Feedback systems
+- Simulation and analysis
+
+### Electrical Engineering
+
+- Circuit analysis
+- RLC circuits
+- Control systems
+- Electrical measurements
+- Instrumentation
+- Data acquisition
 
 ---
 
 # 📈 Learning Roadmap
 
-```
-MATLAB Basics
-      ↓
-Functions
-      ↓
-Engineering Calculations
-      ↓
-Graphs & Plotting
-      ↓
-Signal Processing
-      ↓
-Power System Analysis
-      ↓
-GUI Development
-      ↓
-Simulink
+```text
+MATLAB Fundamentals
+        ↓
+Electrical Calculator
+        ↓
+Simulink Fundamentals
+        ↓
+RLC Circuit Simulation
+        ↓
+Control System / DC Motor
+        ↓
+Real-Time Electrical Monitoring
+        ↓
+Advanced Electrical Engineering Applications
 ```
 
 ---
@@ -104,34 +107,58 @@ Simulink
 
 ## 01. Electrical Calculator
 
-Features
+A modular MATLAB application for performing common electrical calculations.
 
-- Voltage Calculator
-- Current Calculator
-- Resistance Calculator
-- Power Calculator
-- Energy Calculator
-- Multiple Power Formulas
-- Multiple Energy Formulas
-- Modular Programming
+### Features
+
+- Voltage calculation
+- Current calculation
+- Resistance calculation
+- Power calculation
+- Energy calculation
+- Multiple power formulas
+- Multiple energy formulas
+- Modular function-based design
 
 ---
 
 # 📌 Upcoming Projects
 
-- Signal Generator
-- Matrix Visualizer
-- RLC Circuit Analyzer
-- Smart Energy Monitor
-- Oscilloscope
-- Transformer Calculator
-- Simulink Projects
+### 02. RLC Circuit Simulation
+
+Simulation and analysis of RLC circuits using MATLAB and Simulink.
+
+Planned features:
+
+- RLC circuit modelling
+- Voltage and current analysis
+- Impedance calculation
+- Resonance analysis
+- Time-domain response
+- Frequency response
+
+### 03. Control System / DC Motor
+
+A Simulink-based control system for modelling and controlling a DC motor.
+
+### 04. Real-Time Electrical Monitoring System
+
+A physical electrical measurement system connected to MATLAB/Simulink.
+
+Planned measurements:
+
+- Voltage
+- Current
+- Power
+- Energy consumption
 
 ---
 
 # 🛠️ Technologies Used
 
 - MATLAB
+- Simulink
+- Arduino / Microcontroller
 - Git
 - GitHub
 
@@ -139,9 +166,9 @@ Features
 
 # 📚 Purpose
 
-This repository documents my journey of learning MATLAB through practical Electrical Engineering projects rather than small standalone examples.
+This repository documents my progression from MATLAB programming fundamentals to **Electrical Engineering system modelling, simulation, control, and instrumentation**.
 
-Each project focuses on solving engineering problems while improving programming and software development skills.
+The focus is on building practical engineering projects rather than creating repetitive programming exercises.
 
 ---
 
@@ -149,11 +176,10 @@ Each project focuses on solving engineering problems while improving programming
 
 **Manish Chauhan**
 
-B.Tech Electrical Engineering
-
+B.Tech Electrical Engineering  
 National Institute of Technology Meghalaya
 
-GitHub: https://github.com/manish-chauhan-107
+GitHub: [manish-chauhan-107](https://github.com/manish-chauhan-107)
 
 ---
 
