@@ -45,7 +45,8 @@ while true
                pause;
 
         case 2
-            disp("Square Wave Generator");
+           fprintf("----- square Wave Generator -----\n\n");
+
             pause;
 
         case 3
