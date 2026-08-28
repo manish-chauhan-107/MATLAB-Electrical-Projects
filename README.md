@@ -38,7 +38,7 @@ MATLAB-Electrical-Projects
 │
 ├── 02_Simulink_Fundamentals
 │
-├── 03_RLC_Circuit_Simulation
+├── 03_simukink_practice
 │
 ├── 04_Control_System
 │
