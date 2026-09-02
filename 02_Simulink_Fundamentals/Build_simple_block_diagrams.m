@@ -1,6 +1,6 @@
 % Create new model
 model = 'simple_sine_gain';
-new_system(model)
+new_system(model);
 open_system(model);
 
 % Add blocks
